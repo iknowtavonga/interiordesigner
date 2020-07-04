@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button{
+  float: right;
+  margin: 20px;
+}
+/*Header*/
+
+/*header{
+  text-align: center;
+}*/
+
+.logo{
+    float: left;
+}
+
+.logo h2{
+  font-family: 'Satisfy', cursive;
+  color: #4E763B;
+  line-height: 0;
+}
+
+.logo h3{
+  font-family: 'Bebas Neue', cursive;
+  color: #193C0D;
+  line-height: 1;
+  margin-left: 20px;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4E763B;
+  font-size: 16px;
+}
+
+header li{
+  display: inline;
+  padding: 2px 8px 2px 8px;
+  float: left;
+}

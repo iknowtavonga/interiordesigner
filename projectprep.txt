@@ -1,0 +1,38 @@
+In-Living Space Interior Design
+
+- Header (Fixed To the Top)
+	- Logo (Company Name [Far Left])
+		- Cursive Design Font for company name
+		- "Interior Design" shouldnt be in cursive
+		- Should be in a div floated to the left
+
+	- Navigation (Centre)
+		- Home , About, Projects, Contact Us
+		- Navigation color should be white with green text.
+		- nav centred in the middle (float)
+		- Hover effect to make the text bold and more green
+
+	- "Get In Touch" Button
+		- text-transform: uppercase
+		- Button boarder should be the same green as the nav text.
+		- Links to the "Contact Us" page.
+
+HOME PAGE
+
+- Header
+
+- Showcase
+	- Image as background
+	- h1 "we make your living space liveable" text-transform: uppercase, text-align: center, Middle of showcase;
+	- small paragraph
+	- "see our projects" button. The button links to projects page
+- Team
+	- Image of company team
+		- aside floated to the left
+	- <div>
+	   h3 "Team"
+	   <p>
+		floated to the right next to the image
+
+-Footer
+	- In-Living Space Interior Designers copyright 2020
