@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     margin: 0;
@@ -18,31 +18,14 @@ ul{
   padding: 0;
 }
 
-.button{
-  float: right;
-  margin: 20px;
-}
 /*Header*/
 
-/*header{
-  text-align: center;
-}*/
-
-.logo{
-    float: left;
-}
-
-.logo h2{
-  font-family: 'Satisfy', cursive;
-  color: #4E763B;
-  line-height: 0;
-}
-
-.logo h3{
-  font-family: 'Bebas Neue', cursive;
-  color: #193C0D;
-  line-height: 1;
-  margin-left: 20px;
+header{
+  background-color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  /* the code below was used to see where the header ended*/
+  /*border-bottom: #193C0D 3px solid;*/
 }
 
 header a{
@@ -52,8 +35,80 @@ header a{
   font-size: 16px;
 }
 
+/*header ul{
+  margin: 0;
+  padding: 0;
+}*/
+
 header li{
   display: inline;
-  padding: 2px 8px 2px 8px;
+  padding: 0px 20px 0px 20px;
   float: left;
+}
+
+header a:hover{
+  font-weight: bold;
+  color: #193C0D;
+}
+
+header #logo{
+  float: left;
+}
+
+header #logo h2{
+  font-family: 'Satisfy', cursive;
+  color: #4E763B;
+  line-height: 0;
+  margin-top: 15px;
+}
+
+header nav{
+  float: right;
+}
+
+#showcase{
+  min-height: 600px;
+  background: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-color: burlywood;*/
+  text-align: center;
+  color: #193C0D;
+}
+
+#showcase div{
+  padding: 20px 40px 20px 40px;
+}
+
+#showcase h2{
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+/* .small-image{
+  width: 500px;
+  float: left;
+} */
+
+#team{
+  min-height: 600px;
+  margin-top: 40px;
+  border-bottom: #193C0D 5px solid;
+}
+
+#team img{
+  float: left;
+  width:40%;
+}
+
+#sidebar{
+  float: right;
+ /* margin: 20px 40px 20px 40px;*/
+  width: 58%;
+  text-align: center;
 }
