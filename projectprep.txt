@@ -36,3 +36,6 @@ HOME PAGE
 
 -Footer
 	- In-Living Space Interior Designers copyright 2020
+	
+CHANGES
+	- Buttons will be added later
